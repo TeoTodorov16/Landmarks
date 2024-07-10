@@ -12,7 +12,7 @@ struct ContentView: View {
         VStack {
             Text("Turtle Rock")
                 .font(.title)
-            Text(/*@START_MENU_TOKEN@*/"Joshua Tree National Park"/*@END_MENU_TOKEN@*/)
+            Text("dd")
         }
             
             
