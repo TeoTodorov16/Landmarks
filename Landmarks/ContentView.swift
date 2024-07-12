@@ -15,10 +15,12 @@ struct ContentView: View {
             HStack{
                 Text(/*@START_MENU_TOKEN@*/"Joshua Tree National Park"/*@END_MENU_TOKEN@*/)
                     .font(.subheadline)
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
             }
         }
-            
-            
+        .padding()
     }
 }
 
