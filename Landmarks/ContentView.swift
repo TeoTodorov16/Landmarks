@@ -12,8 +12,10 @@ struct ContentView: View {
         VStack(alignment: .leading) {
             Text("Turtle Rock")
                 .font(.title)
-            Text(/*@START_MENU_TOKEN@*/"Joshua Tree National Park"/*@END_MENU_TOKEN@*/)
-                .font(.subheadline)
+            HStack{
+                Text(/*@START_MENU_TOKEN@*/"Joshua Tree National Park"/*@END_MENU_TOKEN@*/)
+                    .font(.subheadline)
+            }
         }
             
             
