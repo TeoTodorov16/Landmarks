@@ -25,7 +25,7 @@ struct ContentView: View {
             
             
             //Adding the next component CircleImage which is the actual image.
-            //Adding also offset to move the image in the map and padding from the bottom of the VStack to move the text a bit more uppwards.
+            //Adding also offset to move the image in the map and padding from the bottom of the VStack to move the text a bit more upwards.
 
             
             VStack(alignment: .leading) {
@@ -38,10 +38,16 @@ struct ContentView: View {
                     Text("California")
                         .font(.subheadline)
                 }
+                
+                Divider()
+                
+                Text("About Turtle Rock")
+                    .font(.title2)
+                Text("Descriptive text goes here.")
             }
             .padding()
             
-           
+            Spacer()
         }
     }
 }
