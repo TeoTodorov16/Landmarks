@@ -39,6 +39,9 @@ struct ContentView: View {
                         .font(.subheadline)
                 }
                 
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+                
                 Divider()
                 
                 Text("About Turtle Rock")
