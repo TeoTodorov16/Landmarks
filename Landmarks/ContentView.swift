@@ -11,10 +11,12 @@ struct ContentView: View {
     var body: some View {
         VStack {
             MapView()
-               
+                .frame(height: 300)
            
             
             
+            //adding a frame with specific height for the map.
+            //I do not have to add width since it will take all the available space in the frame if I just add the height. This is automatically.
             
             VStack(alignment: .leading) {
                 Text("Turtle Rock")
