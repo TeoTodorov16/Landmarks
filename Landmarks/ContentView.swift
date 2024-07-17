@@ -22,6 +22,10 @@ struct ContentView: View {
             CircleImage()
                 .offset(y: -130)
                 .padding(.bottom, -130)
+            
+            
+            //Adding the next component CircleImage which is the actual image.
+            //Adding also offset to move the image in the map and padding from the bottom of the VStack to move the text a bit more uppwards.
 
             
             VStack(alignment: .leading) {
