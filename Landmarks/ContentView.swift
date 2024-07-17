@@ -18,6 +18,12 @@ struct ContentView: View {
             //adding a frame with specific height for the map.
             //I do not have to add width since it will take all the available space in the frame if I just add the height. This is automatically.
             
+            
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+
+            
             VStack(alignment: .leading) {
                 Text("Turtle Rock")
                     .font(.title)
